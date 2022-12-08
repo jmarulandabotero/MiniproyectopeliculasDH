@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head', { title : 'Juegos' }) %>
+
+	<body>
+		<header>
+			<div class="container">
+				<h1> PLAYSTATION</h1>
+				<hr />
+				<nav>
+					<a href="#">INICIO</a>
+					<a href="#palabra">Nuestras Peliculas</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section id="palabra">
+				<h2>Conoce toda nuestras peliculas de PS4 y PS5!</h2>
+			</section>
+			<section class="grid-container">
+				<% juegos.forEach(juego=> { %>
+					<div class="a-box">
+						<div class="img-container">
+							<div class="img-inner">
+								<div class="inner-skew">
+									<img src="/images/<%= juego.imagen %>" alt="..." width="250">
+								</div>
+							</div>
+						</div>
+						<div class="text-container">
+							<h3> <strong>Nombre :</strong>
+								<%= juego.nombre %>
+							</h3>
+							<p> <strong>Precio :</strong>
+								<%= juego.precio %>
+							</p>
+							<p> <strong>Plataforma :</strong>
+								<%= juego.plataforma %>
+							</p>
+							<div> <strong>Descripcion :</strong>
+								<%= juego.descripcion %>
+							</div>
+						</div>
+					</div>
+					<% }) %>
+			</section>
+		</main>
+
+		<footer>
+			<%- include('./partials/footer') %>
+		</footer>
+	</body>
+
+</html>

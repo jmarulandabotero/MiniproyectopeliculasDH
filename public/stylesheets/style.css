@@ -1,0 +1,208 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'roboto', sans-serif;
+  margin: 0;
+}
+
+
+h1{ font-size: 2.0em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+h4{font-size: 1.25em;}
+p{font-size: 1.25em;}
+
+
+
+header{
+  background-color: rgb(194, 194, 194);
+  padding: 4px 80px;
+  position:relative;
+  width: 100%;
+}
+
+header .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+
+}
+
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+header a:hover{
+  color:blueviolet;
+
+}
+
+
+
+button{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgb(56, 54, 56);
+}
+button:hover{
+  background-color: rgb(117, 49, 180);
+}
+
+
+#hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center ;
+  flex-direction: column;
+  height: 80vh;
+  background-image: linear-gradient(
+      0deg,
+      rgb(0, 0, 0, 0.5),
+      rgb(0, 0, 0, 0.5)
+
+  )
+  ,url('/assets/logo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#hero h1{
+  color: white;
+}
+
+#hero button{
+  font-size: 1.75em;
+}
+
+#palabra{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+
+}
+
+
+.juegos-cards{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between; 
+  padding: 10px;
+}
+
+.grid-container {
+  padding: 3.75%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 5%;
+  grid-row-gap: 50px;
+}
+
+main .card1{
+  margin: 2px 2px;
+  /* box-shadow: 2px 2px 2px  2px black; */
+  border: solid rgb(102, 99, 99) 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+main .card {
+ padding: 5px;
+ text-align: center;
+ align-items: center;
+ margin: 15px 10px;
+
+}
+main a{
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgb(56, 54, 56);
+  
+  
+}
+
+body {
+  text-align: center;
+  padding: 30px;
+  background: #f8f4f2;
+  font-family: Arial;
+}
+
+.a-box {
+  width: 240px;
+  text-align: center;
+  padding-top: 10%;
+  margin: 15px 10px;
+}
+
+.img-container {
+    height: 230px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.img-container img {
+    transform: skew(0deg, -13deg);
+    height: 100%;
+    width: 100%;
+    margin: -35px 0px 0px 0px;
+}
+
+.inner-skew {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0px;
+    transform: skew(0deg, 13deg);
+    font-size: 0px;
+    margin: 30px 0px 0px 0px;
+    height: 250px;
+    width: 200px;
+}
+
+.text-container {
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  padding: 120px 20px 20px 20px;
+  border-radius: 20px;
+  background: #fff;
+  margin: -120px 0px 0px 0px;
+  line-height: 19px;
+  font-size: 14px;
+}
+
+.text-container h3 {
+  margin: 20px 0px 10px 0px;
+  color: #04bcff;
+  font-size: 18px;
+}
+
