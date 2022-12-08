@@ -1,2 +1,26 @@
 # MiniproyectopeliculasDH
-Mini proyecto de Peliculas
+
+Mini proyecto de peliculas desarrollado en Express, Mysql con Sequelize y Ejs utilizando el patron MVC.
+
+# Configuración
+
+Para configurar el proyecto se debe ejecutar el comando 
+
+```bash
+npm install
+```
+
+En el archivo .env esta las variables de entorno para poder configurar la base de datos.
+
+# Ejecutar el proyecto
+
+```bash
+npm start
+```
+
+# Comando sql utilizado para agregar nuevos video juegos
+
+```sql
+INSERT INTO juegos (nombre, imagen, precio, descripcion, plataforma)
+VALUES ("Overwatch 2", "overwatch.webp","0","Overwatch 2 is a 2022 first-person shooter by Blizzard Entertainment. As a sequel to the 2016 hero shooter Overwatch", "PS5");
+```
