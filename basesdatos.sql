@@ -8,11 +8,7 @@ CREATE TABLE IF NOT EXISTS `gamesdatabase`.`juegos` (
   `descripcion` VARCHAR(255) NOT NULL,
   `plataforma` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`idJuego`),
-  UNIQUE INDEX `idJuego` (`idJuego` ASC) VISIBLE)
-ENGINE = InnoDB
-AUTO_INCREMENT = 18
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+  UNIQUE INDEX `idJuego` (`idJuego` ASC) VISIBLE) ;
 
 INSERT INTO `gamesdatabase`.`juegos` ( `nombre`, `imagen`, `precio`, `descripcion`, `plataforma`) VALUES ( 'Grand Theft Auto V', 'gta.jpg', '150.000', 'Grand Theft Auto V es un videojuego de acción-aventura desarrollado por el estudio Rockstar North y distribuido por Rockstar Games. Fue lanzado el 17 de septiembre de 2013 para las consolas PlayStation', 'ps4');
 INSERT INTO `gamesdatabase`.`juegos` ( `nombre`, `imagen`, `precio`, `descripcion`, `plataforma`) VALUES ( 'Modern warfare', 'mw.jpg', '250.000', 'Call of Duty: Modern Warfare es un videojuego de disparos en primera persona desarrollado por Infinity Ward y publicado por Activision.', 'ps4');
