@@ -12,6 +12,8 @@ npm install
 
 En el archivo .env esta las variables de entorno para poder configurar la base de datos.
 
+El nombre que se le ponga a la base de datos debe ser creada previamente desde MySql Workbench, luego al ejecutar la aplicacion Sequelize crea la tabla juegos.
+
 # Ejecutar el proyecto
 
 ```bash
