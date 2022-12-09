@@ -20,6 +20,10 @@ El nombre que se le ponga a la base de datos debe ser creada previamente desde M
 npm start
 ```
 
+# Registrar los juegos
+
+Para registrar los productos se debe ejecutar el comando SQL juegos.sql
+
 # Comando sql utilizado para agregar nuevos video juegos
 
 ```sql
