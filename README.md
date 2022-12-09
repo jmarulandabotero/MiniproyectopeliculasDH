@@ -20,10 +20,9 @@ El nombre que se le ponga a la base de datos debe ser creada previamente desde M
 npm start
 ```
 
-# Registrar los juegos
+# Crear base de datos
 
-Para registrar los productos se debe ejecutar el comando SQL juegos.sql
-
+Para crear la base de datos ejecutar el archivo basesdatos.sql en MySql Workbench y con esto se crea la base de datos y se registran los juegos
 # Comando sql utilizado para agregar nuevos video juegos
 
 ```sql
