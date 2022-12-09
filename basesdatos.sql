@@ -2,7 +2,7 @@ CREATE SCHEMA IF NOT EXISTS `gamesdatabase` DEFAULT CHARACTER SET utf8mb4 COLLAT
 USE `gamesdatabase` ;
 CREATE TABLE IF NOT EXISTS `gamesdatabase`.`juegos` (
   `idJuego` INT NOT NULL AUTO_INCREMENT,
-  `nombre` VARCHAR(255) NULL DEFAULT NULL,
+  `nombre` VARCHAR(255) NOT NULL,
   `imagen` VARCHAR(255) NOT NULL,
   `precio` VARCHAR(255) NOT NULL,
   `descripcion` VARCHAR(255) NOT NULL,
